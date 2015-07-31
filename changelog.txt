@@ -1,3 +1,6 @@
+0.83
+ * Removed deprecated methods and constructors from the Realm class.
+
 0.82
  * RealmConfiguration.setModules() now accept ignore null values which Realm.getDefaultModule() might return.
  * Trying to access a deleted Realm object throw throws a proper IllegalStateException.
